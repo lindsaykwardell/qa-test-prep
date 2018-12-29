@@ -1,3 +1,7 @@
+# QA Test Practice
+
+This app is meant to help test the user on concepts of software QA.
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
