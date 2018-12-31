@@ -341,5 +341,375 @@ Which development process step is being verified?`,
     `Which level of coding knowledge is needed to perform black box testing?`,
     ["Extensive", "Very extensive", "Limited", "Very limited"],
     1
+  ),
+  new Question(
+    `True of False: Bugs that are found and fixed early in the process will cost more to fix when compared to finding them later and fixing all the bugs at once.`,
+    ["True", "False"],
+    1
+  ),
+  new Question(
+    `When is the appropriate time to include the people responsible for quality in the development lifecycle?`,
+    [
+      "When formal testing begins",
+      "When requirements are formulated",
+      "As early as possible in the cycle",
+      "When coding begins"
+    ],
+    2
+  ),
+  new Question(
+    `What key best practice brings the development process together in order to meet the deliverable deadline?`,
+    [
+      "Racing ahead with your eyes focused on the finish line",
+      "Having clearly defined goals for every milestone",
+      "Making hard decisions regarding the direction of development",
+      "Not wasting time on trivial items that have no impact"
+    ],
+    1
+  ),
+  new Question(
+    `True or False: Process improvement helps software development build and retain product and service quality.`,
+    ["True", "False"],
+    0
+  ),
+  new Question(
+    `What can be achieved with a process improvement initiative based on the CMMI?`,
+    [
+      "An approach to monitoring employees",
+      "A measureable business result",
+      "A sense of when a project is done",
+      "A way to evaluate customers"
+    ],
+    1
+  ),
+  new Question(
+    `True or False: Studies have shown that defects found and fixed in the requirements phase carry the highest cost`,
+    ["True", "False"],
+    1
+  ),
+  new Question(
+    `Which type of review is considered a walkthrough?`,
+    ["Management review", "Peer review", "Progress review", "Milestone review"],
+    1
+  ),
+  new Question(
+    `Which of the following is a key principle of testing?`,
+    [
+      "Testing does not need to be planned",
+      "Complete testing is not possible",
+      "Testing requires dependence on developers",
+      "Formal exit criteria must be defined."
+    ],
+    1
+  ),
+  new Question(
+    `True or False: System validation is an end-to-end process that ensures that the completed and integrated system will operate as needed in the environment for which it was intended.`,
+    ["True", "False"],
+    0
+  ),
+  new Question(
+    `Which test type will satisfy the final validation and verification criteria?`,
+    [
+      "Systems validation",
+      "Acceptance testing",
+      "Functional testing",
+      "Packaging and delivery"
+    ],
+    1
+  ),
+  new Question(
+    `What is the benefit of building a discrete list of defects and ranking them in order of importance?`,
+    [
+      "Helping to define the severity of each issue",
+      "Creating an opportunity to examine quality goals and how defects affect the milestone schedule",
+      "Giving the team the opportunity to voice their concerns and advocate for their own priorities",
+      "Allowing for performance issues to be identified and elevated to the top of the list"
+    ],
+    2
+  ),
+  new Question(
+    `What is a visual definition of how you will prioritize bugs as they are discovered?`,
+    [
+      "A list of all bugs",
+      "A matrix of impacts versus severity",
+      "A matrix of severity versus stakeholder concerns.",
+      "A PowerPoint presentation"
+    ],
+    1
+  ),
+  new Question(
+    `True or False: A bug base is a system for keeping track of every bug logged in a database system.`,
+    ["True", "False"],
+    0
+  ),
+  new Question(
+    `What is the best way to document and keep track of test cases?`,
+    [
+      "A detailed spreadsheet",
+      "A test case management system.",
+      "A set of detailed text files.",
+      "A bug tracking system."
+    ],
+    1
+  ),
+  new Question(
+    `True or False: A bug model is based on historical data and planned activities and predicts how many bugs will be found during the project`,
+    ["True", "False"],
+    1
+  ),
+  new Question(
+    `Which element of a bug record will provide the programmer with a visual representation of the problem?`,
+    [
+      "The steps to recreate the problem",
+      "A screenshot",
+      "A description of expected versus actual results",
+      "A brief and accurate description"
+    ],
+    1
+  ),
+  new Question(
+    `How is a solid IT-QA relationship fundamental to business success?`,
+    [
+      "It finds and fixes bugs before systems are delivered.",
+      "It will help deliver compliant business-enabling systems",
+      "It provides a usability perspective for the business to understand",
+      "It can lower cost by fixing issues early in the process."
+    ],
+    1
+  ),
+  new Question(
+    `When is a good time to start automation testing?`,
+    [
+      "When you begin coding, so that the automation tests can be done ahead of time",
+      "When the scheduled milestone for automation testing is reached.",
+      "When you are confident that you do not want anything to change in the code",
+      "At the end of the project, right before the user starts acceptance testing."
+    ],
+    2
+  ),
+  new Question(
+    "What is the intent of test automation?",
+    [
+      "To find as many defects as possible",
+      "To optimize your process and make testing more efficient.",
+      "To test as many pieces of functionality as possible",
+      "To automatically record issues to be fixed."
+    ],
+    1
+  ),
+  new Question(
+    "True or False: The goal of automation is to completely eliminate the need for a human to participate in the testing process.",
+    ["True", "False"],
+    1
+  ),
+  new Question(
+    "Who should create automated unit tests?",
+    [
+      "White-box tester",
+      "Program developer",
+      "QA Engineer",
+      "Automation tester"
+    ],
+    1
+  ),
+  new Question(
+    "True or False: When the testing is focused on how the application behaves at code level, a white-box tester shuld create the tests.",
+    ["True", "False"],
+    0
+  ),
+  new Question(
+    "What can a developer employ to identify and resolve code quality issues?",
+    [
+      "Peer reviews",
+      "Code-level tests",
+      "Unit testing",
+      "Bug tracking systems"
+    ],
+    1
+  ),
+  new Question(
+    "True or False: Testing is the process of executing a program with the intent of finding errors.",
+    ["True", "False"],
+    0
+  ),
+  new Question(
+    "What makes a test run successful?",
+    [
+      "A test that did not find any errors",
+      "A test that discovers a new error",
+      "A test that causes the program to produce the correct result.",
+      "A test that demonstrates all functionality of the program."
+    ],
+    1
+  ),
+  new Question(
+    `What does it mean to raise the reliability of a program?`,
+    [
+      "To demonstrate that errors are not present.",
+      "To find and remove errors.",
+      "To show that a program performs its intended functions",
+      "To establish confidence that a program does what it is supposed to do."
+    ],
+    1
+  ),
+  new Question(
+    "What must a black-box tester focus on?",
+    [
+      "What a program is supposed to do and who it is for.",
+      "Expected outputs of the program, but not every input.",
+      "How each individual piece of the application works.",
+      "Knowledge at the source code level."
+    ],
+    0
+  ),
+  new Question(
+    "In addition to finding errors, what else would a black-box tester look for when testing a program?",
+    [
+      "Infrastructure issues.",
+      "Data issues.",
+      "Usability issues.",
+      "Stability issues."
+    ],
+    2
+  ),
+  new Question(
+    "True or False: In white-box testing, the tester is not concerned about the internal behaviour and structure of a program.",
+    ["True", "False"],
+    1
+  ),
+  new Question(
+    "Which type of tester focuses exclusively on validating the interactions and behaviors that result in functionality?",
+    [
+      "White-box tester",
+      "Black-box tester",
+      "Usability tester",
+      "Gray-box tester"
+    ],
+    0
+  ),
+  new Question(
+    "True or False: Test cases must be written for input conditions that are invalid and unexpected, as well as for those that are valid and expected.",
+    ["True", "False"],
+    0
+  ),
+  new Question(
+    "Which software testing principle states that a programmer may subconsciously avoid finding errors for fear of retribution from peers, a supervisor, a client, or the owner of the program or system being developed?",
+    [
+      "A programmer should avoid attempting to test his or her own program.",
+      "A programming organization should not test its own programs.",
+      "Any testing process should include a thorough inspection of the results of each test.",
+      "Do not plan a testing effort under the tacit assumption that no errors will be found."
+    ],
+    0
+  ),
+  new Question(
+    "True or False: Software development is the process of moving from the conceptual to the concrete",
+    ["True", "False"],
+    0
+  ),
+  new Question(
+    "Which step in the software development process translates requirements into specific objectives?",
+    ["External specification", "Requirements", "Objectives", "System design"],
+    2
+  ),
+  new Question(
+    "Which step in the software development process defines the exact represenation of the program to users?",
+    [
+      "Requirements",
+      "External specifications",
+      "Program structure design",
+      "System design"
+    ],
+    1
+  ),
+  new Question(
+    "True or False: Requirements translate the program user's needs and specify why the program is needed.",
+    ["True", "False"],
+    0
+  ),
+  new Question(
+    "Which test will show that a program does not match its external specifications?",
+    ["Module test", "Function test", "System test", "Acceptance test"],
+    1
+  ),
+  new Question(
+    "Which type of test would reveal that the program as a whole either meets or doesn't meet its objectives?",
+    ["Function test", "System test", "Acceptance test", "Integration test"],
+    1
+  ),
+  new Question(
+    "True or False: A system test should be performed by the programmer and the organization responsible for developing the program.",
+    ["True", "False"],
+    1
+  ),
+  new Question(
+    "What type of test compares the program to its initial requirements and the current needs of its end users?",
+    ["Function test", "Unit test", "Acceptance test", "Regression test"],
+    2
+  ),
+  new Question(
+    "Which test requires the organization that produced the program to create the test cases?",
+    ["Function test", "System test", "Integration test", "Installation test"],
+    3
+  ),
+  new Question(
+    "What is the key to successful higher-order testing?",
+    [
+      "Appropriate system testing",
+      "Function testing that uncovers errors",
+      "Acceptance testing",
+      "Consistent and well-planned testing"
+    ],
+    3
+  ),
+  new Question(
+    "True or False: Debugging by brute force is both efficient and successful.",
+    ["True", "False"],
+    1
+  ),
+  new Question(
+    "Which of the following is a brute-force debugging technique?",
+    [
+      "Studying error symptoms",
+      "Dumping memory locations",
+      "Process of elimination",
+      "Backtracking"
+    ],
+    1
+  ),
+  new Question(
+    "Which debugging method moves from the particulars of a situation to the larger picture?",
+    [
+      "Brute-force debugging",
+      "Debugging by induction",
+      "Debugging by deduction",
+      "Error-location principles"
+    ],
+    1
+  ),
+  new Question(
+    "Which debugging method looks at a reverse execution of the program?",
+    [
+      "Brute-force debugging",
+      "Debugging by testing",
+      "Debugging by backtracking",
+      "Debugging by deduction"
+    ],
+    2
+  ),
+  new Question(
+    "True or False: The most effective method of debugging involves a mental process.",
+    ["True", "False"],
+    0
+  ),
+  new Question(
+    "Which of the following is a debugging principle?",
+    [
+      "Where there is one bug, there is likely to be another",
+      "The likelihood of a fix being correct is 100%",
+      "Change the object code, not the source code",
+      "Fix the symptom, not the error"
+    ],
+    0
   )
 ];
