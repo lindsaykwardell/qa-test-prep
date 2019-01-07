@@ -340,7 +340,7 @@ Which development process step is being verified?`,
   new Question(
     `Which level of coding knowledge is needed to perform black box testing?`,
     ["Extensive", "Very extensive", "Limited", "Very limited"],
-    1
+    3
   ),
   new Question(
     `True of False: Bugs that are found and fixed early in the process will cost more to fix when compared to finding them later and fixing all the bugs at once.`,
